@@ -1,2 +1,2 @@
 # networkkarma
-Bridge between Shruthi'sKarma and NetworkKarma
+Bridge between Shruthi's Karma and NetworkKarma
