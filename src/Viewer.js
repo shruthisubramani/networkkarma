@@ -8,7 +8,7 @@ export default class Viewer extends Component {
 	};
 
 	componentDidMount() {
-		fetch(this.props.urlToPullMarkDownFrom)
+		fetch('https://raw.githubusercontent.com/shruthisubramani/networkkarma/master/README.md')
 			.then(res => {
 				return res.text();
 			})
