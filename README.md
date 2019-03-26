@@ -2,7 +2,7 @@
 #### Phone# 510-925-7850
 #### shruthis1024@gmail.com	
 
-_5 Years of solid networking_
+_5+ Years of solid networking experience_
 
 
 ## Summary:
