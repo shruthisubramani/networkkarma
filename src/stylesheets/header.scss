@@ -1,5 +1,6 @@
 @import './modules/colors.scss';
 @import './modules/fonts.scss';
+@import './modules/devices';
 
 .header {
 
@@ -23,9 +24,9 @@
       justify-content: center;
       display: flex;
 
-      // @include mobile{
-      //   flex: 1;
-      // }
+      @include mobile{
+        flex: 1;
+      }
 
     }
 

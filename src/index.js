@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import "antd/dist/antd.css";
 
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
     Link
