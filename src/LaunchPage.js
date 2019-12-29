@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import Viewer from "./Viewer";
 import baffle from "baffle";
+import arrow from './assets/arrow.png'
+
 
 import { Link } from "react-router-dom";
 import { Card, Typography } from "antd";
@@ -15,7 +16,7 @@ class LaunchPage extends Component {
         </div>
         <span className="zerosAndOnes subtext">010101011101010010</span>
         <Link to='/home'>
-          <img src="http://wildlifeobservationsworldwide.com/wp-content/uploads/2017/09/arrow_down_white_round.png" className="arrow" id="arrow"/>
+          <img src={arrow} className="arrow" id="arrow"/>
         </Link>
         <div className="menu">
           {/* <span className="menu__item">Resume</span>

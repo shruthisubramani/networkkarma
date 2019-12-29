@@ -4,7 +4,6 @@
 .header {
 
     a {
-      color: $secondary-color;
       margin: 0 10px;
       font-size: 1.1em;
 
@@ -71,23 +70,19 @@
 
 .links__link{
 
-  font-family: $primary-font;
- 
-  justify-content: flex-end;
   cursor: pointer;
 
-  &--active{
-    color:lighten(grey,5%);
-    cursor: auto;
+  &--inactive{
+    font-family: $primary-font;
+    color: $secondary-color;
   }
 
-  &--seperator{
-    font-weight: 100;
+  &--active{
     font-family: $primary-font;
-    color: white;
-    justify-content: flex-end;
-    opacity: 0.1;
+    cursor: pointer;
+    color: #cc4c2d;
   }
+
 }
 
 .logo__name{
