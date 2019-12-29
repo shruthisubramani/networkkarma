@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://shruthisubramani.github.io/networkkarma",
   "dependencies": {
     "antd": "^3.25.3",
     "baffle": "^0.3.6",
