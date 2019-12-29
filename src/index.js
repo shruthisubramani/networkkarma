@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './stylesheets/main.scss';
+import LaunchPage from './LaunchPage';
 import * as serviceWorker from './serviceWorker';
 import "antd/dist/antd.css";
 
@@ -17,18 +17,26 @@ import QuestLog from './QuestLog';
 import Certifications from './Certifications';
 import Contact from './Contact';
 import SubjectMatrix from './SubjectMatrix';
+import Header from './Header';
+import Working from './Working';
 
 
 ReactDOM.render(
     <Router>
-    <Switch>
-        <Route exact path="/" component={App} />
-        <Route exact path="/resume" component={Resume} />
+        <Switch>
+            <Route exact path="/" component={LaunchPage} />
+            <Route component={Header} />
+        </Switch>
+        <Route path="/home" component={Working} />
+        <Route exact path="/about" component={Working} />
+        <Route exact path="/questLog" component={Working} />
+        <Route exact path="/contact" component={Working} />
+        <Route exact path="/subjectMatrix" component={Working} />
+        {/* <Route path="/home" component={Resume} />
+        <Route exact path="/about" component={Resume} />
         <Route exact path="/questLog" component={QuestLog} />
-        <Route exact path="/certifications" component={Certifications} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/subjectMatrix" component={SubjectMatrix} />
-    </Switch>
+        <Route exact path="/subjectMatrix" component={SubjectMatrix} /> */}
     </Router>
 , document.getElementById('root'));
 

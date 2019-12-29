@@ -34,15 +34,17 @@ Highly enthusiastic, creative team player, project implementation, analytical, i
 export default class Resume extends Component {
   render() {
     return (
-      <Card>
-        <ol>
-            {
-              firstResume.split('\n').map(eachLine=>{
-                  return<li>{eachLine}</li>
-              })
-            }
-        </ol>
-      </Card>
+      <div className="resume">
+        <Card>
+          <ol>
+              {
+                firstResume.split('\n').map(eachLine=>{
+                    return<li>{eachLine}</li>
+                })
+              }
+          </ol>
+        </Card>
+      </div>
     )
   }
 }
