@@ -19,6 +19,7 @@ import Contact from './Contact';
 import SubjectMatrix from './SubjectMatrix';
 import Header from './Header';
 import Working from './Working';
+import About from './about/About';
 
 
 ReactDOM.render(
@@ -28,7 +29,7 @@ ReactDOM.render(
             <Route component={Header} />
         </Switch>
         <Route path="/home" component={Working} />
-        <Route exact path="/about" component={Working} />
+        <Route exact path="/about" component={About} />
         <Route exact path="/questLog" component={Working} />
         <Route exact path="/contact" component={Working} />
         <Route exact path="/subjectMatrix" component={Working} />

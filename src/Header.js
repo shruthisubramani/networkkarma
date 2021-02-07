@@ -36,7 +36,7 @@ export default () => {
             to="/questLog"
             activeClassName="links__link--active links__link" className="links__link--inactive" 
           >
-            QUEST LOG
+            BLOG
           </NavLink>
           <NavLink
             exact

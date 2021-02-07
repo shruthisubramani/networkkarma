@@ -1,0 +1,39 @@
+.about{ 
+    margin: 24px;
+
+    &__get {
+        font-size: 20px;
+    }
+
+    &__quote {
+        font-size: 15px;
+        font-weight: 100;
+
+        &__update {
+            font-weight: bold;
+        }
+    }
+}
+
+
+.domain {
+
+    &__container {
+        max-width: fit-content;
+        margin: 20px 0px;
+        word-wrap: break-word;
+        padding: 10px 20px;
+        border: 3px solid #eee;
+        border-radius: 25px;
+    }
+
+    &__header {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    &__content {
+        font-weight: 300;
+        
+    }
+}
